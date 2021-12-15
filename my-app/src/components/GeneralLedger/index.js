@@ -2,7 +2,7 @@ import './index.css';
 import { Link } from 'react-router-dom';
 import navBar from '../NavBar';
 
-const Calendar = () => {
+const GeneralLedger = () => {
     return (
             // <footer>
             //     <Link to='Calendar'>Calendar</Link>
@@ -25,12 +25,12 @@ const Calendar = () => {
 
 
 
-        <div className='calendar'>
-            <h2>Calendar</h2>
+        <div className='gl'>
+            <h2>GeneralLedger</h2>
             { navBar }
         </div>
 
     )
 
 }
-export default Calendar
+export default GeneralLedger

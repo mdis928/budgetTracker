@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const navBar =
         <nav>
-            <Link to='Calendar'>Calendar</Link>
+            <Link to='GeneralLedger'>General Ledger</Link>
             <Link to='Graph'>Graph</Link>
             <Link to='Dashboard'>Me</Link>
             <Link to='News'>News</Link>
