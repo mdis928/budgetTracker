@@ -6,7 +6,7 @@ import Register from './components/Register';
 import Dashboard from './components/Dashboard';
 import GeneralLedger from './components/GeneralLedger';
 import Graph from './components/Graph';
-import News from './components/News';
+import HabitsAndGoals from './components/HabitsAndGoals';
 import Settings from './components/Settings';
 
 function App() {
@@ -29,7 +29,7 @@ function App() {
           <Route exact path='/dashboard' element={<Dashboard/>}></Route>
           <Route exact path='/generalledger' element={<GeneralLedger/>}></Route>
           <Route exact path='/graph' element={<Graph/>}></Route>
-          <Route exact path='/news' element={<News/>}></Route>
+          <Route exact path='/HabitsAndGoals' element={<HabitsAndGoals/>}></Route>
           <Route exact path='/settings' element={<Settings/>}></Route>
         </Routes>
       </div>

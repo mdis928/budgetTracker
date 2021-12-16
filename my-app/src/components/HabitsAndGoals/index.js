@@ -2,7 +2,7 @@ import './index.css';
 import { Link } from 'react-router-dom';
 import navBar from '../NavBar';
 
-const News = () => {
+const HabitsAndGoals = () => {
     return (
     //     <footer>
     //     <Link to='Calendar'>Calendar</Link>
@@ -15,11 +15,11 @@ const News = () => {
 
 
         <div className='news'>
-            <h2>News</h2>
+            <h2>Habits and Goals</h2>
             { navBar }
         </div>
 
     )
 }
 
-export default News
+export default HabitsAndGoals
